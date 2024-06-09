@@ -9,6 +9,7 @@ function signup(e) {
         password: form.get("password")
 
     }
+    
     console.log(signupDetails)
     
         axios.post('http://54.79.191.141:3000/user/signup',signupDetails).then(response => {

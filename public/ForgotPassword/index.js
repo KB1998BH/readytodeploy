@@ -7,6 +7,7 @@ function forgotpassword(e) {
         email: form.get("email"),
 
     }
+    
     console.log(userDetails)
     axios.post('http://54.79.191.141:3000/password/forgotpassword',userDetails).then(response => {
         if(response.status === 202){

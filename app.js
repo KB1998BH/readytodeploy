@@ -58,10 +58,6 @@ Forgotpassword.belongsTo(User);
 
 
 
-
-// Serve static files from the 'public' directory
-app.use(express.static(path.join(__dirname, 'public')));
-
 app.use((req, res) => {
     console.log('urlll', req.url);
     res.sendFile(path.join(__dirname, `public/${req.url}`))
