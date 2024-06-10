@@ -8,7 +8,6 @@ function login(e) {
         password: form.get("password")
 
     }
-    
     console.log(loginDetails)
     axios.post('http://54.79.191.141:3000/user/login',loginDetails).then(response => {
         if(response.status === 200){
