@@ -7,7 +7,6 @@ function signup(e) {
         name: form.get("name"),
         email: form.get("email"),
         password: form.get("password")
-
     }
     console.log(signupDetails)
     

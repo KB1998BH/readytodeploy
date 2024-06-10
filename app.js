@@ -13,7 +13,6 @@ const helmet = require('helmet')
 const morgan = require('morgan');
 
 
-
 const userRoutes = require('./routes/user')
 const purchaseRoutes = require('./routes/purchase')
 const resetPasswordRoutes = require('./routes/resetpassword')
