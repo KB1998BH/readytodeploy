@@ -3,6 +3,7 @@ function login(e) {
     console.log(e.target.name);
     const form = new FormData(e.target);
 
+    
     const loginDetails = {
         email: form.get("email"),
         password: form.get("password")

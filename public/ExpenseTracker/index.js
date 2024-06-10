@@ -1,5 +1,6 @@
 
 const token = localStorage.getItem('token');
+
 let currentPage = 1;
 const itemsPerPage = calcaluteItemsPerpage();
 function addNewExpense(e) {

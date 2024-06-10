@@ -3,6 +3,7 @@ function signup(e) {
     console.log(e.target.name);
     const form = new FormData(e.target);
 
+    
     const signupDetails = {
         name: form.get("name"),
         email: form.get("email"),
